@@ -3,21 +3,15 @@ import { Link } from 'react-router-dom'
 
 export default function Piece(props) {
   return (
-   <>
-    <li className="piece">
-    <Link className='link' to={props.path}>
-    
+    <figure className="image-item">
+    <Link to={props.path}>
     <img 
       src={props.src}
       className='img'
       alt="Piece"
        />
-   
-    <div className='info'>
-      <h5 className="text">{props.text}</h5>
-    </div>
+    <figcaption class="overlay"><span>{props.text}</span></figcaption>
     </Link>
-    </li>
-   </>
+    </figure>
   )
 }

@@ -4,52 +4,54 @@ import '../Piece.css';
 
 export default function Originals () {
     return (
-        <div className='originals'>
-            <h1>mostly pets</h1>
-            <div className='container'>
-            <div className='wrapper'>
-                <ul className='pieces'>
-                    <Piece
-                    src='../../../public/original/worlds.jpg'
+        <div className='container'>
+            <h2>mostly pets</h2>
+            <div className='image-gallery'>
+            <div className="column">
+                <Piece
+                    src='original/worlds.jpg'
                     text='physical and virtual body-and-worlds'
                     path='/originals'
                     />
                     <Piece
-                    src='../../../public/original/pumpkin-art'
+                    src='original/pumpkin-art.jpg'
                     text='pumpkin'
                     path='/originals'
                     />
                     <Piece
-                    src='../../../public/original/toby-art'
+                    src='original/toby-art.jpg'
                     text='toby'
                     path='/originals'
                     />
+            </div>
+            <div className="column">
                     <Piece
-                    src='../../../public/original/cole-art'
+                    src='original/cole-art.jpg'
                     text='cole'
                     path='/originals'
                     />
                     <Piece
-                    src='../../../public/original/clifford-art'
+                    src='original/clifford-art.jpg'
                     text='clifford'
                     path='/originals'
                     />
                     <Piece
-                    src='../../../public/original/missy-art'
+                    src='original/missy-art.jpg'
                     text='missy'
                     path='/originals'
                     />
+            </div>
+            <div className="column">
                     <Piece
-                    src='../../../public/original/pear-cat-art'
+                    src='original/pear-cat-art.jpg'
                     text='pear cat'
                     path='/originals'
                     />
                     <Piece
-                    src='../../../public/original/computer-cat-art'
+                    src='original/computer-cat-art.jpg'
                     text='computer cat'
                     path='/originals'
                     />
-                </ul>
             </div>
             </div>
         </div>
