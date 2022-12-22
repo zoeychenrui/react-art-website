@@ -1,13 +1,10 @@
 import React from 'react'
-import '../../App.css';
-import Cover from '../Cover'
+import './Home.css';
 
-function Home () {
+export default function Home () {
     return (
-        <>
-            <Cover />
-        </>
+        <div className='cover-container'>
+        </div>
     )
 }
 
-export default Home;

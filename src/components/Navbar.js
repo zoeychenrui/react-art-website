@@ -39,9 +39,7 @@ function Navbar() {
                             about
                         </Link>
                     </li>
-                    
                     <li className='nav-item'>
-                        
                         <a href="https://www.linkedin.com/in/zoey-chen/" className="nav-links" onClick={closeMobileMenu}>
                         <i className= "fa-brands fa-linkedin"/>
                         </a>
