@@ -11,4 +11,13 @@ export const sliderData = [
     {
         image: "pandaClass/panda4.png",
     },
+    {
+        image: "pandaClass/panda5.png",
+    },
+    {
+        image: "pandaClass/panda6.png",
+    },
+    {
+        image: "pandaClass/panda7.png",
+    },
   ];

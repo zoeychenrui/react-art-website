@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { sliderData } from "./PandaData";
 import "./Slider.css";
+import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 const PandaSlider = () => {
@@ -13,12 +14,12 @@ const PandaSlider = () => {
 
     const nextSlide = () => {
         setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
-        console.log("next");
+       
     };
 
     const prevSlide = () => {
         setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
-        console.log("prev");
+      
     };
 
     function auto() {
@@ -37,6 +38,8 @@ const PandaSlider = () => {
     }, [currentSlide]);
 
     return (
+        <figure className="image-item">
+        <Link className="no-line" to='/teaching'>
         <div className="slider">
             <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide}/>
             <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
@@ -47,15 +50,20 @@ const PandaSlider = () => {
                         key={index}
                     >
                     {index === currentSlide && (
-                        <div>
-                        <img src={slide.image} alt="slide" className="image" />
+                        <div className='img'>
+                        <img src={slide.image} alt="slide"  />
                         </div>
-                )}
+                    )}
 
                     </div>
+                    
+                    
                 );
             })}
         </div>
+        <figcaption><span>panda</span></figcaption>
+        </Link>
+        </figure>
     )
 
 };
