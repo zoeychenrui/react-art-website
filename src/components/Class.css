@@ -64,7 +64,7 @@ span {
     opacity:1;
 }
 
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 540px) {
     .image-gallery {
         flex-direction: row;
     }
