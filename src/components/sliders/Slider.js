@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import React from 'react';
-import { abstractFlowersData, fireflyData, PandaData, rainbowSkyData } from "./SliderData";
+import { abstractFlowersData, cherryBlossomData, fireflyData, flowersData, hummingbirdData, lavendarData, littleBirdData, lotusFlowerData, nightSkyData, PandaData, peacockData, rainbowSkyData, SunflowersData, sunsetMountainsData } from "./SliderData";
 import "./Slider.css";
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
@@ -20,6 +20,36 @@ export default function Slider (props) {
     }
     if(props.name == "abstractFlowers") {
         sliderData= abstractFlowersData;
+    }
+    if(props.name == "sunflowers") {
+        sliderData= SunflowersData;
+    }
+    if(props.name == "flowers") {
+        sliderData= flowersData;
+    }
+    if(props.name == "littleBird") {
+        sliderData= littleBirdData;
+    }
+    if(props.name == "sunsetMountains") {
+        sliderData= sunsetMountainsData;
+    }
+    if(props.name == "nightSky") {
+        sliderData= nightSkyData;
+    }
+    if(props.name == "lavendar") {
+        sliderData= lavendarData;
+    }
+    if(props.name == "cherryBlossom") {
+        sliderData= cherryBlossomData;
+    }
+    if(props.name == "lotusFlower") {
+        sliderData= lotusFlowerData;
+    }
+    if(props.name == "peacock") {
+        sliderData= peacockData;
+    }
+    if(props.name == "hummingbird") {
+        sliderData= hummingbirdData;
     }
 
     const slideLength = sliderData.length;

@@ -9,21 +9,31 @@ export default function Teaching () {
             <h2>class galleries</h2>
             <div className='image-gallery'>
             <div className="column">
-               
                 <Slider name="panda" text="panda 4.5.2020" url="/panda"/>
+                <Slider name="sunflowers" text="sunflowers 4.26.2020" url="/sunflowers"/>
                 <Slider name="rainbowSky" text="rainbow sky 5.24.2020" url="/rainbowSky"/>
+            </div>
+            <div className="column">
                 <Slider name="firefly" text="firefly 5.17.2020" url="/firefly"/>
+                <Slider name="abstractFlowers" text="abstract flowers 6.14.2020" url="/abstractFlowers"/>
+                <Slider name="flowers" text="flowers 4.12.2020" url="/flowers"/>
             </div>
             <div className="column">
-            <Slider name="abstractFlowers" text="abstract flowers 6.14.2020" url="/abstractFlowers"/>
-            <Slider name="firefly" text="firefly 5.17.2020" url="/firefly"/>
-            <Slider name="firefly" text="firefly 5.17.2020" url="/firefly"/>
+                <Slider name="littleBird" text="little bird 5.3.2020" url="/littleBird"/>
+                <Slider name="sunsetMountains" text="sunset mountains 6.21.2020" url="/sunsetMountains"/>
+                <Slider name="nightSky" text="night sky 6.28.2020" url="/nightSky"/>
             </div>
             <div className="column">
-            <Slider name="firefly" text="firefly 5.17.2020" url="/firefly"/>
-            <Slider name="firefly" text="firefly 5.17.2020" url="/firefly"/>
-            <Slider name="firefly" text="firefly 5.17.2020" url="/firefly"/>
+                <Slider name="lavendar" text="lavendar 7.5.2020" url="/lavendar"/>
+                <Slider name="cherryBlossom" text="cherry blossom 5.10.2020" url="/cherryBlossom"/>
+                <Slider name="lotusFlower" text="lotus flower 7.12.2020" url="/lotusFlower"/>
             </div>
+            <div className="column">
+                <Slider name="peacock" text="peacock 7.26.2020" url="/peacock"/>
+                <Slider name="hummingbird" text="hummingbird 8.16.2020" url="/hummingbird"/>
+                <Slider name="lotusFlower" text="lotus flower 7.12.2020" url="/lotusFlower"/>
+            </div>
+
             </div>
         </div>
     )
