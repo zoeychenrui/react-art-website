@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import React from 'react';
-import { abstractFlowersData, assortedFlowersData, beachData, birdsData, cherryBlossomData, desertData, fireflyData, flowersData, hotAirBalloonData, hummingbirdData, lavendarData, littleBirdData, lotusFlowerData, nightSkyData, PandaData, peacockData, pottedCactiData, rainbowSkyData, SunflowersData, sunsetMountainsData } from "./SliderData";
+import { abstractFlowersData, assortedFlowersData, beachData, birdsData, cherryBlossomData, desertData, fireflyData, flowersData, goldenGateBridgeData, hotAirBalloonData, hummingbirdData, lavendarData, littleBirdData, lotusFlowerData, nightSkyData, PandaData, peacockData, pottedCactiData, rainbowSkyData, SunflowersData, sunsetMountainsData } from "./SliderData";
 import "./Slider.css";
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
@@ -68,6 +68,12 @@ export default function Slider (props) {
     }
     if(props.name == "assortedFlowers") {
         sliderData= assortedFlowersData;
+    }
+    if(props.name == "goldenGateBridge") {
+        sliderData= goldenGateBridgeData;
+    }
+    if(props.name == "goldenGateBridge") {
+        sliderData= goldenGateBridgeData;
     }
 
     const slideLength = sliderData.length;

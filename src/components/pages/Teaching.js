@@ -41,10 +41,10 @@ export default function Teaching () {
             <div className="column">
                 <Slider name="pottedCacti" text="potted cacti 9.13.2020" url="/pottedCacti"/>
                 <Slider name="assortedFlowers" text="assorted flowers 8.30.2020" url="/assortedFlowers"/>
-                <Slider name="birds" text="birds 9.6.2020" url="/birds"/>
+                <Slider name="goldenGateBridge" text="golden gate bridge 9.27.2020" url="/goldenGateBridge"/>
             </div>
             <div className="column">
-                <Slider name="desert" text="desert 8.9.2020" url="/desert"/>
+                <Slider name="auroraBorealis" text="aurora borealis 11.29.2020" url="/auroraBorealis"/>
                 <Slider name="beach" text="beach 8.2.2020" url="/beach"/>
                 <Slider name="birds" text="birds 9.6.2020" url="/birds"/>
             </div>
