@@ -1,14 +1,20 @@
 import { useState, useEffect } from "react";
-import { sliderData } from "./PandaData";
+import React from 'react';
+import { PandaData } from "./SliderData";
 import "./Slider.css";
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
-const PandaSlider = () => {
+export default function Slider ( props) {
     const [currentSlide, setCurrentSlide] = useState(0);
-    const slideLength = sliderData.length;
+    
+    var sliderData = [];
+    if(props.name == "panda") {
+        sliderData= PandaData;
+    }
 
-    const autoScroll = true;
+    const slideLength = sliderData.length;
+   
     let slideInterval;
     let intervalTime = 5000;
 
@@ -31,18 +37,18 @@ const PandaSlider = () => {
     }, []);
 
     useEffect(() => {
-        if(autoScroll) {
-            auto();
-        }
+        auto();
         return () => clearInterval(slideInterval);
     }, [currentSlide]);
 
     return (
+        
         <figure className="image-item">
-        <Link className="no-line" to='/teaching'>
+        <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide}/>
+        <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
+
+        <Link className="no-line" to={props.url}>
         <div className="slider">
-            <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide}/>
-            <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
             {sliderData.map((slide, index) => {
                 return (
                     <div
@@ -53,18 +59,16 @@ const PandaSlider = () => {
                         <div className='img'>
                         <img src={slide.image} alt="slide"  />
                         </div>
+                        
                     )}
 
-                    </div>
-                    
-                    
+                    </div>  
                 );
             })}
         </div>
-        <figcaption><span>panda</span></figcaption>
+        <figcaption><span>{props.text}</span></figcaption>
         </Link>
         </figure>
     )
 
 };
-export default PandaSlider;

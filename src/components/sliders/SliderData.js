@@ -1,4 +1,4 @@
-export const sliderData = [
+export const PandaData = [
     {
       image: "pandaClass/panda1.png",
     },
