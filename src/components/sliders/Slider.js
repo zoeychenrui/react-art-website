@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import React from 'react';
-import { abstractFlowersData, cherryBlossomData, fireflyData, flowersData, hummingbirdData, lavendarData, littleBirdData, lotusFlowerData, nightSkyData, PandaData, peacockData, rainbowSkyData, SunflowersData, sunsetMountainsData } from "./SliderData";
+import { abstractFlowersData, assortedFlowersData, beachData, birdsData, cherryBlossomData, desertData, fireflyData, flowersData, hotAirBalloonData, hummingbirdData, lavendarData, littleBirdData, lotusFlowerData, nightSkyData, PandaData, peacockData, pottedCactiData, rainbowSkyData, SunflowersData, sunsetMountainsData } from "./SliderData";
 import "./Slider.css";
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
@@ -50,6 +50,24 @@ export default function Slider (props) {
     }
     if(props.name == "hummingbird") {
         sliderData= hummingbirdData;
+    }
+    if(props.name == "hotAirBalloon") {
+        sliderData= hotAirBalloonData;
+    }
+    if(props.name == "desert") {
+        sliderData= desertData;
+    }
+    if(props.name == "beach") {
+        sliderData= beachData;
+    }
+    if(props.name == "birds") {
+        sliderData= birdsData;
+    }
+    if(props.name == "pottedCacti") {
+        sliderData= pottedCactiData;
+    }
+    if(props.name == "assortedFlowers") {
+        sliderData= assortedFlowersData;
     }
 
     const slideLength = sliderData.length;

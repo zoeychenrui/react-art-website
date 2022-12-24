@@ -336,3 +336,192 @@ export const PandaData = [
         image: "hummingbird/hummingbird10.png",  },
    
   ];
+
+  export const hotAirBalloonData = [
+    {
+      image: "hotAirBalloon/air1.png",
+    },
+    {
+      image: "hotAirBalloon/air2.png",   },
+    {
+      image: "hotAirBalloon/air3.png",    },
+    {
+      image: "hotAirBalloon/air4.png",    },
+    {
+      image: "hotAirBalloon/air5.png",   },
+    {
+      image: "hotAirBalloon/air6.png",   },
+    {
+      image: "hotAirBalloon/air7.png",   },
+    {
+      image: "hotAirBalloon/air8.png",  },
+    {
+      image: "hotAirBalloon/air9.png", },
+      {
+        image: "hotAirBalloon/air10.png",  },
+        {
+          image: "hotAirBalloon/air11.png",  },
+          {
+            image: "hotAirBalloon/air12.png",  },
+   
+  ];
+
+  export const desertData = [
+    {
+      image: "desert/desert1.png",
+    },
+    {
+      image: "desert/desert2.png",   },
+    {
+      image: "desert/desert3.png",    },
+    {
+      image: "desert/desert4.png",    },
+    {
+      image: "desert/desert5.png",    },
+    {
+      image: "desert/desert6.png",   },
+    {
+      image: "desert/desert7.png",   },
+    {
+      image: "desert/desert8.png",  },
+    {
+      image: "desert/desert9.png",  },
+      {
+        image: "desert/desert10.png",  },
+   
+  ];
+  export const beachData = [
+    {
+      image: "beach/beach1.png",
+    },
+    {
+      image: "beach/beach2.png",   },
+    {
+      image: "beach/beach3.png",    },
+    {
+      image: "beach/beach4.png",    },
+    {
+      image: "beach/beach5.png",   },
+    {
+      image: "beach/beach6.png",   },
+    {
+      image: "beach/beach7.png",   },
+    {
+      image: "beach/beach8.png",  },
+    {
+      image: "beach/beach9.png",  },
+      {
+        image: "beach/beach10.png",  },
+        {
+          image: "beach/beach11.png",  },
+   
+  ];
+
+  export const birdsData = [
+    {
+      image: "birds/birds1.png",
+    },
+    {
+      image: "birds/birds2.png",   },
+    {
+      image: "birds/birds3.png",    },
+    {
+      image: "birds/birds4.png",    },
+    {
+      image: "birds/birds5.png",   },
+    {
+      image: "birds/birds6.png",  },
+    {
+      image: "birds/birds7.png",   },
+    {
+      image: "birds/birds8.png",  },
+    {
+      image: "birds/birds9.png",  },
+      {
+        image: "birds/birds10.png",  },
+        {
+          image: "birds/birds11.png",  },
+    {
+      image: "birds/birds12.png",
+    },
+    {
+      image: "birds/birds13.png",
+    },
+    {
+      image: "birds/birds14.png",
+    },
+    {
+      image: "birds/birds15.png",
+    },
+    {
+      image: "birds/birds16.png",
+    },
+   
+  ];
+
+export const pottedCactiData = [
+    {
+      image: "pottedCacti/cacti1.png",
+    },
+    {
+      image: "pottedCacti/cacti2.png",   },
+    {
+      image: "pottedCacti/cacti3.png",    },
+    {
+      image: "pottedCacti/cacti4.png",    },
+    {
+      image: "pottedCacti/cacti5.png",   },
+    {
+      image: "pottedCacti/cacti6.png",  },
+    {
+      image: "pottedCacti/cacti7.png",   },
+    {
+      image: "pottedCacti/cacti8.png",  },
+    {
+      image: "pottedCacti/cacti9.png",  },
+      {
+        image: "pottedCacti/cacti10.png",  },
+        {
+          image: "pottedCacti/cacti11.png",  },
+    {
+      image: "pottedCacti/cacti12.png",
+    },
+    {
+      image: "pottedCacti/cacti13.png",
+    },
+    {
+      image: "pottedCacti/cacti14.png",
+    },
+  ];
+
+  export const assortedFlowersData = [
+    {
+      image: "assortedFlowers/assorted1.png",
+    },
+    {
+      image: "assortedFlowers/assorted2.png",   },
+    {
+      image: "assortedFlowers/assorted3.png",    },
+    {
+      image: "assortedFlowers/assorted4.png",    },
+    {
+      image: "assortedFlowers/assorted5.png",   },
+    {
+      image: "assortedFlowers/assorted6.png",  },
+    {
+      image: "assortedFlowers/assorted7.png",   },
+    {
+      image: "assortedFlowers/assorted8.png",  },
+    {
+      image: "assortedFlowers/assorted9.png",  },
+      {
+        image: "assortedFlowers/assorted10.png",  },
+        {
+          image: "assortedFlowers/assorted11.png", },
+    {
+      image: "assortedFlowers/assorted12.png",
+    },
+    {
+      image: "assortedFlowers/assorted13.png",
+    },
+  ];

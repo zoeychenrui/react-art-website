@@ -31,7 +31,22 @@ export default function Teaching () {
             <div className="column">
                 <Slider name="peacock" text="peacock 7.26.2020" url="/peacock"/>
                 <Slider name="hummingbird" text="hummingbird 8.16.2020" url="/hummingbird"/>
-                <Slider name="lotusFlower" text="lotus flower 7.12.2020" url="/lotusFlower"/>
+                <Slider name="hotAirBalloon" text="hot air balloon 8.23.2020" url="/hotAirBalloon"/>
+            </div>
+            <div className="column">
+                <Slider name="desert" text="desert 8.9.2020" url="/desert"/>
+                <Slider name="beach" text="beach 8.2.2020" url="/beach"/>
+                <Slider name="birds" text="birds 9.6.2020" url="/birds"/>
+            </div>
+            <div className="column">
+                <Slider name="pottedCacti" text="potted cacti 9.13.2020" url="/pottedCacti"/>
+                <Slider name="assortedFlowers" text="assorted flowers 8.30.2020" url="/assortedFlowers"/>
+                <Slider name="birds" text="birds 9.6.2020" url="/birds"/>
+            </div>
+            <div className="column">
+                <Slider name="desert" text="desert 8.9.2020" url="/desert"/>
+                <Slider name="beach" text="beach 8.2.2020" url="/beach"/>
+                <Slider name="birds" text="birds 9.6.2020" url="/birds"/>
             </div>
 
             </div>
