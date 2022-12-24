@@ -1,16 +1,25 @@
 import { useState, useEffect } from "react";
 import React from 'react';
-import { PandaData } from "./SliderData";
+import { abstractFlowersData, fireflyData, PandaData, rainbowSkyData } from "./SliderData";
 import "./Slider.css";
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
-export default function Slider ( props) {
+export default function Slider (props) {
     const [currentSlide, setCurrentSlide] = useState(0);
     
     var sliderData = [];
     if(props.name == "panda") {
         sliderData= PandaData;
+    }
+    if(props.name == "rainbowSky") {
+        sliderData= rainbowSkyData;
+    }
+    if(props.name == "firefly") {
+        sliderData= fireflyData;
+    }
+    if(props.name == "abstractFlowers") {
+        sliderData= abstractFlowersData;
     }
 
     const slideLength = sliderData.length;
