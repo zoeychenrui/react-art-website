@@ -549,3 +549,72 @@ export const goldenGateBridgeData = [
       image: "goldenGateBridge/bridge10.png",  },
   
 ];
+
+export const sunsetData = [
+  {
+    image: "sunset/sunset1.png",
+  },
+  {
+    image: "sunset/sunset2.png",   },
+  {
+    image: "sunset/sunset3.png",    },
+  {
+    image: "sunset/sunset4.png",   },
+  {
+    image: "sunset/sunset5.png",   },
+  {
+    image: "sunset/sunset6.png",   },
+  {
+    image: "sunset/sunset7.png",  },
+  {
+    image: "sunset/sunset8.png",  },
+  {
+    image: "sunset/sunset9.png",  },
+    {
+      image: "sunset/sunset10.png",  },
+      {
+        image: "sunset/sunset11.png", },
+        {
+          image: "sunset/sunset12.png", },
+          {
+            image: "sunset/sunset13.png", },
+ 
+];
+
+export const auroraBorealisData = [
+  {
+    image: "auroraBorealis/aurora1.png",
+  },
+  {
+    image: "auroraBorealis/aurora2.png",   },
+  {
+    image: "auroraBorealis/aurora3.png",  },
+  {
+    image: "auroraBorealis/aurora4.png",    },
+  {
+    image: "auroraBorealis/aurora5.png",   },
+  {
+    image: "auroraBorealis/aurora6.png",  },
+  {
+    image: "auroraBorealis/aurora7.png",  },
+  {
+    image: "auroraBorealis/aurora8.png",  },
+  {
+    image: "auroraBorealis/aurora9.png",  },
+    {
+      image: "auroraBorealis/aurora10.png",  },
+      {
+        image: "auroraBorealis/aurora11.png",  },
+  {
+    image: "auroraBorealis/aurora12.png",
+  },
+  {
+    image: "auroraBorealis/aurora13.png",
+  },
+  {
+    image: "auroraBorealis/aurora14.png",
+  },
+  {
+    image: "auroraBorealis/aurora15.png",
+  },
+];

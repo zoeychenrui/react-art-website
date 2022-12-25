@@ -45,8 +45,8 @@ export default function Teaching () {
             </div>
             <div className="column">
                 <Slider name="auroraBorealis" text="aurora borealis 11.29.2020" url="/auroraBorealis"/>
-                <Slider name="beach" text="beach 8.2.2020" url="/beach"/>
-                <Slider name="birds" text="birds 9.6.2020" url="/birds"/>
+                <Slider name="sunset" text="sunset 12.13.2020" url="/sunset"/>
+                <Slider name="red bird" text="red bird 12.20.2020" url="/redBird"/>
             </div>
 
             </div>
