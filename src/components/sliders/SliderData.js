@@ -734,3 +734,161 @@ export const winterWoodsData = [
     image: "winterWoods/winterWoods13.png",
   },
 ];
+
+export const lavendarFarmData = [
+  {
+    image: "lavendarFarm/lavendarFarm1.png",
+  },
+  {
+    image: "lavendarFarm/lavendarFarm2.png",   },
+  {
+    image: "lavendarFarm/lavendarFarm3.png",  },
+  {
+    image: "lavendarFarm/lavendarFarm4.png",    },
+  {
+    image: "lavendarFarm/lavendarFarm5.png",   },
+  {
+    image: "lavendarFarm/lavendarFarm6.png",  },
+  {
+    image: "lavendarFarm/lavendarFarm7.png",  },
+  {
+    image: "lavendarFarm/lavendarFarm8.png",  },
+  {
+    image: "lavendarFarm/lavendarFarm9.png",  },
+    {
+      image: "lavendarFarm/lavendarFarm10.png",  },
+      {
+        image: "lavendarFarm/lavendarFarm11.png",  },
+  {
+    image: "lavendarFarm/lavendarFarm12.png",
+  },
+  {
+    image: "lavendarFarm/lavendarFarm13.png",
+  },
+  {
+    image: "lavendarFarm/lavendarFarm14.png",
+  },
+  {
+    image: "lavendarFarm/lavendarFarm15.png",
+  },
+];
+
+export const secludedBridgeData = [
+  {
+    image: "secludedBridge/secludedBridge1.png",
+  },
+  {
+    image: "secludedBridge/secludedBridge2.png",   },
+  {
+    image: "secludedBridge/secludedBridge3.png",   },
+  {
+    image: "secludedBridge/secludedBridge4.png",   },
+  {
+    image: "secludedBridge/secludedBridge5.png",   },
+  {
+    image: "secludedBridge/secludedBridge6.png",  },
+  {
+    image: "secludedBridge/secludedBridge7.png",   },
+  {
+    image: "secludedBridge/secludedBridge8.png",  },
+  {image: "secludedBridge/secludedBridge9.png", },
+    {
+      image: "secludedBridge/secludedBridge10.png",  },
+      {
+        image: "secludedBridge/secludedBridge11.png",  },
+        {
+          image: "secludedBridge/secludedBridge12.png",  },
+          {
+            image: "secludedBridge/secludedBridge13.png",  },
+            {
+              image: "secludedBridge/secludedBridge14.png",  },
+              {
+                image: "secludedBridge/secludedBridge15.png",  },
+                {
+                  image: "secludedBridge/secludedBridge16.png",  },
+                  {
+                    image: "secludedBridge/secludedBridge17.png",  },
+  
+];
+
+export const whiteFusionCalatheaData = [
+  {
+    image: "whiteFusionCalathea/whiteFusion1.png",
+  },
+  {
+    image: "whiteFusionCalathea/whiteFusion2.png",   },
+  {
+    image: "whiteFusionCalathea/whiteFusion3.png",    },
+  {
+    image: "whiteFusionCalathea/whiteFusion4.png",    },
+  {
+    image: "whiteFusionCalathea/whiteFusion5.png",   },
+  {
+    image: "whiteFusionCalathea/whiteFusion6.png",  },
+  {
+    image: "whiteFusionCalathea/whiteFusion7.png",   },
+  {
+    image: "whiteFusionCalathea/whiteFusion8.png",  },
+  {
+    image: "whiteFusionCalathea/whiteFusion9.png",  },
+    {
+      image: "whiteFusionCalathea/whiteFusion10.png",  },
+      {
+        image: "whiteFusionCalathea/whiteFusion11.png",  },
+  
+];
+
+export const riverReflectionsData = [
+  {
+    image: "riverReflections/riverReflections1.png",
+  },
+  {
+    image: "riverReflections/riverReflections2.png",   },
+  {
+    image: "riverReflections/riverReflections3.png",    },
+  {
+    image: "riverReflections/riverReflections4.png",    },
+  {
+    image: "riverReflections/riverReflections5.png",   },
+  {
+    image: "riverReflections/riverReflections6.png",  },
+  {
+    image: "riverReflections/riverReflections7.png",   },
+  {
+    image: "riverReflections/riverReflections8.png",  },
+  {
+    image: "riverReflections/riverReflections9.png",  },
+    {
+      image: "riverReflections/riverReflections10.png",  },
+  
+];
+
+export const parisData = [
+  {
+    image: "paris/paris1.png",
+  },
+  {
+    image: "paris/pariss2.png",   },
+  {
+    image: "paris/paris3.png",    },
+  {
+    image: "paris/paris4.png",    },
+  {
+    image: "paris/paris5.png",  },
+  {
+    image: "paris/paris6.png",  },
+  {
+    image: "paris/paris7.png",   },
+  {
+    image: "paris/paris8.png", },
+  {
+    image: "paris/paris9.png",  },
+    {
+      image: "paris/paris10.png", },
+      {
+        image: "paris/paris11.png", },
+  {
+    image: "paris/paris12.png",
+  },
+ 
+];

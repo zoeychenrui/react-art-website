@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import React from 'react';
-import { abstractFlowersData, assortedFlowersData, auroraBorealisData, beachData, birdsData, cherryBlossomData, desertData, fireflyData, flowersData, foxData, goldenGateBridgeData, hotAirBalloonData, hummingbirdData, lavendarData, littleBirdData, lotusFlowerData, midnightData, nightSkyData, PandaData, peacockData, pottedCactiData, rainbowSkyData, redBirdData, SunflowersData, sunsetData, sunsetMountainsData, winterWoodsData } from "./SliderData";
+import { abstractFlowersData, assortedFlowersData, auroraBorealisData, beachData, birdsData, cherryBlossomData, desertData, fireflyData, flowersData, foxData, goldenGateBridgeData, hotAirBalloonData, hummingbirdData, lavendarData, lavendarFarmData, littleBirdData, lotusFlowerData, midnightData, nightSkyData, PandaData, parisData, peacockData, pottedCactiData, rainbowSkyData, redBirdData, riverReflectionsData, secludedBridgeData, SunflowersData, sunsetData, sunsetMountainsData, whiteFusionCalatheaData, winterWoodsData } from "./SliderData";
 import "./Slider.css";
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
@@ -90,6 +90,22 @@ export default function Slider (props) {
     if(props.name == "winterWoods") {
         sliderData= winterWoodsData;
     }
+    if(props.name == "lavendarFarm") {
+        sliderData= lavendarFarmData;
+    }
+    if(props.name == "paris") {
+        sliderData= parisData;
+    }
+    if(props.name == "whiteFusionCalathea") {
+        sliderData= whiteFusionCalatheaData;
+    }
+    if(props.name == "secludedBridge") {
+        sliderData= secludedBridgeData;
+    }
+    if(props.name == "riverReflections") {
+        sliderData= riverReflectionsData;
+    }
+
 
     const slideLength = sliderData.length;
    
