@@ -618,3 +618,119 @@ export const auroraBorealisData = [
     image: "auroraBorealis/aurora15.png",
   },
 ];
+
+export const redBirdData = [
+  {
+    image: "redBird/redBird1.png",
+  },
+  {
+    image: "redBird/redBird2.png",   },
+  {
+    image: "redBird/redBird3.png",   },
+  {
+    image: "redBird/redBird4.png",   },
+  {
+    image: "redBird/redBird5.png",   },
+  {
+    image: "redBird/redBird6.png",  },
+  {
+    image: "redBird/redBird7.png",   },
+  {
+    image: "redBird/redBird8.png",  },
+  {image: "redBird/redBird9.png", },
+    {
+      image: "redBird/redBird10.png",  },
+      {
+        image: "redBird/redBird11.png",  },
+  
+];
+
+export const midnightData = [
+  {
+    image: "midnight/midnight1.png",
+  },
+  {
+    image: "midnight/midnight2.png",   },
+  {
+    image: "midnight/midnight3.png",    },
+  {
+    image: "midnight/midnight4.png",    },
+  {
+    image: "midnight/midnight5.png",   },
+  {
+    image: "midnight/midnight6.png",  },
+  {
+    image: "midnight/midnight7.png",   },
+  {
+    image: "midnight/midnight8.png",  },
+  {
+    image: "midnight/midnight9.png",  },
+    {
+      image: "midnight/midnight10.png",  },
+      {
+        image: "midnight/midnight11.png",  },
+  {
+    image: "midnight/midnight12.png",
+  },
+  {
+    image: "midnight/midnight13.png",
+  },
+  
+];
+
+export const foxData = [
+  {
+    image: "fox/fox1.png",
+  },
+  {
+    image: "fox/fox2.png",   },
+  {
+    image: "fox/fox3.png",    },
+  {
+    image: "fox/fox4.png",    },
+  {
+    image: "fox/fox5.png",   },
+  {
+    image: "fox/fox6.png",  },
+  {
+    image: "fox/fox7.png",   },
+  {
+    image: "fox/fox8.png",  },
+  {
+    image: "fox/fox9.png",  },
+    {
+      image: "fox/fox10.png",  },
+  
+];
+
+export const winterWoodsData = [
+  {
+    image: "winterWoods/winterWoods1.png",
+  },
+  {
+    image: "winterWoods/winterWoods2.png",   },
+  {
+    image: "winterWoods/winterWoods3.png",    },
+  {
+    image: "winterWoods/winterWoods4.png",    },
+  {
+    image: "winterWoods/winterWoods5.png",  },
+  {
+    image: "winterWoods/winterWoods6.png",  },
+  {
+    image: "winterWoods/winterWoods7.png",   },
+  {
+    image: "winterWoods/winterWoods8.png", },
+  {
+    image: "winterWoods/winterWoods9.png",  },
+    {
+      image: "winterWoods/winterWoods10.png", },
+      {
+        image: "winterWoods/winterWoods11.png", },
+  {
+    image: "winterWoods/winterWoods12.png",
+  },
+  {
+    image: "winterWoods/winterWoods13.png",
+  },
+];
