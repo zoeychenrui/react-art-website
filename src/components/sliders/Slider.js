@@ -128,7 +128,14 @@ export default function Slider (props) {
     const slideLength = sliderData.length;
    
     let slideInterval;
-    let intervalTime = 5000;
+
+    const intervals = [4100, 4500, 4700];
+
+    function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) ) + min;
+      }
+
+    let intervalTime = intervals[getRndInteger(1,3)];
 
     const nextSlide = () => {
         setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);

@@ -746,8 +746,6 @@ export const lavendarFarmData = [
   {
     image: "lavendarFarm/lavendarFarm4.png",    },
   {
-    image: "lavendarFarm/lavendarFarm5.png",   },
-  {
     image: "lavendarFarm/lavendarFarm6.png",  },
   {
     image: "lavendarFarm/lavendarFarm7.png",  },
