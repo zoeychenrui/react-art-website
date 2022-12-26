@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import React from 'react';
-import { abstractFlowersData, assortedFlowersData, auroraBorealisData, beachData, birdsData, cherryBlossomData, desertData, fireflyData, flowersData, foxData, goldenGateBridgeData, hotAirBalloonData, hummingbirdData, lavendarData, lavendarFarmData, littleBirdData, lotusFlowerData, midnightData, nightSkyData, PandaData, parisData, peacockData, pottedCactiData, rainbowSkyData, redBirdData, riverReflectionsData, secludedBridgeData, SunflowersData, sunsetData, sunsetMountainsData, whiteFusionCalatheaData, winterWoodsData } from "./SliderData";
+import { abstractFlowersData, assortedFlowersData, auroraBorealisData, beachData, birdsData, cherryBlossomData, desertData, fireflyData, flowersData, foxData, goldenGateBridgeData, hotAirBalloonData, hummingbirdData, keyToSummerData, koiData, lavendarData, lavendarFarmData, littleBirdData, lotusFlowerData, midnightData, mountainsData, nightSkyData, PandaData, parisData, peacockData, pottedCactiData, rainbowSkyData, redBirdData, riverReflectionsData, secludedBridgeData, springShadeData, SunflowersData, sunsetData, sunsetInMoroccoData, sunsetMountainsData, whiteFusionCalatheaData, winterWoodsData, yearOfTheCowData } from "./SliderData";
 import "./Slider.css";
 import { Link } from 'react-router-dom'
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
@@ -104,6 +104,24 @@ export default function Slider (props) {
     }
     if(props.name == "riverReflections") {
         sliderData= riverReflectionsData;
+    }
+    if(props.name == "sunsetInMorocco") {
+        sliderData= sunsetInMoroccoData;
+    }
+    if(props.name == "mountains") {
+        sliderData= mountainsData;
+    }
+    if(props.name == "yearOfTheCow") {
+        sliderData= yearOfTheCowData;
+    }
+    if(props.name == "springShade") {
+        sliderData= springShadeData;
+    }
+    if(props.name == "keyToSummer") {
+        sliderData= keyToSummerData;
+    }
+    if(props.name == "koi") {
+        sliderData= koiData;
     }
 
 

@@ -9,6 +9,8 @@ export default function Teaching () {
             <h2>class galleries</h2>
             <div className='image-gallery'>
             <div className="column">
+                <Slider name="sunsetInMorocco" text="sunset in morocco 1.10.2021" url="/sunsetInMorocco"/>
+                <Slider name="mountains" text="mountains 11.8.2020" url="/mountains"/>
                 <Slider name="panda" text="panda 4.5.2020" url="/panda"/>
                 <Slider name="sunflowers" text="sunflowers 4.26.2020" url="/sunflowers"/>
                 <Slider name="rainbowSky" text="rainbow sky 5.24.2020" url="/rainbowSky"/>
@@ -54,9 +56,9 @@ export default function Teaching () {
                 <Slider name="riverReflections" text="river reflections 3.14.2021" url="/riverReflections"/>
                 <Slider name="whiteFusionCalathea" text="white fusion calathea 1.31.2021" url="/whiteFusionCalathea"/>
                 <Slider name="secludedBridge" text="secluded bridge 1.17.2021" url="/secludedBridge"/>
-                <Slider name="sunsetInMorocco" text="sunset in morocco 1.10.2021" url="/sunsetInMorocco"/>
-                <Slider name="whiteFusionCalathea" text="white fusion calathea 1.31.2021" url="/whiteFusionCalathea"/>
-                <Slider name="secludedBridge" text="secluded bridge 1.17.2021" url="/secludedBridge"/>
+                <Slider name="koi" text="koi 3.28.2021" url="/koi"/>
+                <Slider name="springShade" text="spring shade 3.21.2021" url="/springShade"/>
+                <Slider name="keyToSummer" text="key to summer 4.4.2021" url="/keyToSummer"/>
             </div>
 
             </div>

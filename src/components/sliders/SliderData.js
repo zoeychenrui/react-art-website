@@ -893,6 +893,89 @@ export const parisData = [
  
 ];
 
+export const keyToSummerData = [
+  {
+    image: "keyToSummer/key1.png",
+  },
+  {
+    image: "keyToSummer/key2.png",   },
+  {
+    image: "keyToSummer/key3.png",    },
+  {
+    image: "keyToSummer/key4.png",    },
+  {
+    image: "keyToSummer/key5.png",   },
+  {
+    image: "keyToSummer/key6.png",  },
+  {
+    image: "keyToSummer/key7.png",   },
+  {
+    image: "keyToSummer/key8.png",  },
+  {
+    image: "keyToSummer/key9.png",  },
+    {
+      image: "keyToSummer/key0.png",  },
+      {
+        image: "keyToSummer/key11.png",  },
+  
+];
+
+export const koiData = [
+  {
+    image: "koi/koi1.png",
+  },
+  {
+    image: "koi/koi2.png",   },
+  {
+    image: "koi/koi3.png",    },
+  {
+    image: "koi/koi4.png",    },
+  {
+    image: "koi/koi5.png",   },
+  {
+    image: "koi/koi6.png",  },
+  {
+    image: "koi/koi7.png",   },
+  {
+    image: "koi/koi8.png",  },
+  {
+    image: "koi/koi9.png",  },
+    {
+      image: "koi/koi10.png",  },
+      {
+        image: "koi/koi11.png",  },
+        {
+          image: "koi/koi12.png",  },
+  
+];
+
+export const springShadeData = [
+  {
+    image: "springShade/shade1.png",
+  },
+  {
+    image: "springShade/shade2.png",   },
+  {
+    image: "springShade/shade3.png",    },
+  {
+    image: "springShade/shade4.png",    },
+  {
+    image: "springShade/shade5.png",  },
+  {
+    image: "springShade/shade6.png",  },
+  {
+    image: "springShade/shade7.png",   },
+  {
+    image: "springShade/shade8.png", },
+  {
+    image: "springShade/shade9.png",  },
+    {
+      image: "springShade/shade10.png", },
+      {
+        image: "springShade/shade11.png", },
+ 
+];
+
 export const sunsetInMoroccoData = [
   {
     image: "sunsetInMorocco/morocco1.png",
@@ -1009,6 +1092,4 @@ export const mountainsData = [
             image: "mountains/mountains18.png",   },
             {
               image: "mountains/mountains19.png",   },
-  
-  
 ];
