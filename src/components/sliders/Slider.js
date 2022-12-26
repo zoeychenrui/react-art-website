@@ -154,7 +154,6 @@ export default function Slider (props) {
     }, [currentSlide]);
 
     return (
-        
         <figure className="image-item">
         <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide}/>
         <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
