@@ -1,60 +1,53 @@
 .slider {
-  width: 100%;
-  height: 80vh;
-  position: relative;
-  overflow: hidden;
+  position: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 250px
 }
 
 .slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; 
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-  opacity:0.8;
+  border-radius: none;
+ 
   
 }
 
 .slide img {
-  width: 100%;
-  height: 100%;
+  object-fit: cover;
+
+  max-width: 250px;
+  max-height: 250px;
 }
 
 .current {
-  opacity:1;
- 
-  transform: translateX(0);
+  
 }
 
 
 .arrow {
   background-color: transparent;
-  color: #fff;
+  color: rgb(194, 194, 194);
   cursor: pointer;
-  height: 1.8rem;
-  width: 1.8rem;
+  height: 1.2rem;
+  width: 1.2rem;
   border: none;
   position: absolute;
   z-index: 999;
 }
 
 .arrow:hover {
-  color: rgb(201, 201, 201);
+  color: rgb(151, 151, 151);
 }
 
 .next {
   top: 35%;
-  right: 1.5rem;
+  right: 0.4rem;
 }
 
 .prev {
   top: 35%;
-  left: 1.5rem;
+  left: 0.4rem;
 }
 
 h2 {
@@ -70,13 +63,11 @@ figcaption {
   text-decoration: none;
 }
 
-span {
-  color: black;
-  font-size: 1.2rem;
-}
 
 .image-gallery {
   /* Mobile first */
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   
@@ -85,12 +76,10 @@ span {
 .image-gallery .column {
   display: flex;
   flex-direction: column;
+  
 }
 
-
-
-
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 140px) {
   .image-gallery {
       flex-direction: row;
   }
@@ -100,6 +89,7 @@ span {
   }
 
 }
+
 
 
 

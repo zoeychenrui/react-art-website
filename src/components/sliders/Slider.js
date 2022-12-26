@@ -168,7 +168,7 @@ export default function Slider (props) {
                         key={index}
                     >
                     {index === currentSlide && (
-                        <div className='img'>
+                        <div >
                         <img src={slide.image} alt="slide"  />
                         </div>
                         

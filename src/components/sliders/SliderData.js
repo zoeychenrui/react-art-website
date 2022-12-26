@@ -914,7 +914,7 @@ export const keyToSummerData = [
   {
     image: "keyToSummer/key9.png",  },
     {
-      image: "keyToSummer/key0.png",  },
+      image: "keyToSummer/key10.png",  },
       {
         image: "keyToSummer/key11.png",  },
   
@@ -934,8 +934,7 @@ export const koiData = [
     image: "koi/koi5.png",   },
   {
     image: "koi/koi6.png",  },
-  {
-    image: "koi/koi7.png",   },
+  
   {
     image: "koi/koi8.png",  },
   {
