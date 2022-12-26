@@ -6,7 +6,7 @@ export default function Originals () {
     return (
         <div className='container'>
             <h2>mostly pets</h2>
-            <div className='image-gallery'>
+            <div className='image-gallery1'>
             <div className="column">
                 <Piece
                     src='original/worlds.jpg'

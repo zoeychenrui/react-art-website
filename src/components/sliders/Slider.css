@@ -1,11 +1,37 @@
 .slider {
-  position: center;
+  position: relative;
   cursor: pointer;
   display: flex;
   justify-content: center;
   height: 250px;
   width: 250px
 }
+
+.image-gallery {
+  /* Mobile first */
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.image-gallery .column {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.img {
+  width: 100%;
+  border-radius: none;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-item {
+  position: relative;
+  cursor: pointer;
+}
+
 
 .slide {
   border-radius: none;
@@ -45,6 +71,10 @@
   right: 0.4rem;
 }
 
+span {
+  color: black;
+}
+
 .prev {
   top: 35%;
   left: 0.4rem;
@@ -52,7 +82,7 @@
 
 h2 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 figcaption {
@@ -65,9 +95,9 @@ figcaption {
 
 
 .image-gallery {
+  padding: 3rem;
   /* Mobile first */
   justify-content: space-evenly;
-  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   
@@ -76,18 +106,59 @@ figcaption {
 .image-gallery .column {
   display: flex;
   flex-direction: column;
-  
+  margin-right: 4rem;
+  margin-left: 4rem;
 }
 
-@media only screen and (min-width: 140px) {
+@media only screen and (min-width: 540px) {
   .image-gallery {
       flex-direction: row;
-  }
+      padding: 2rem;
 
+  }
+  .image-gallery .column {
+    margin-right: 0;
+    margin-left: 0;
+    
+  }
+  .slider {
+    
+    width: 150px
+  }
+  .slide img {
+    object-fit: cover;
+  
+    max-width: 150px;
+    max-height: 150px;
+  }
   span {
       font-size: 1rem;
   }
 
+}
+
+@media only screen and (min-width: 740px) {
+  .slider {
+    width: 200px
+  }
+  .slide img {
+    object-fit: cover;
+  
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  .slider {
+    width: 250px
+  }
+  .slide img {
+    object-fit: cover;
+  
+    max-width: 250px;
+    max-height: 250px;
+  }
 }
 
 

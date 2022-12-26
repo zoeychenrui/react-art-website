@@ -12,32 +12,32 @@ figcaption {
     text-decoration: none;
 }
 
-span {
+.span1 {
     color: black;
     font-size: 1.2rem;
 }
 
-.image-gallery {
+.image-gallery1 {
     /* Mobile first */
     display: flex;
     flex-direction: column;
     
 }
 
-.image-gallery .column {
+.image-gallery1 .column {
     display: flex;
     flex-direction: column;
     
 }
 
-.img {
+.img1 {
     width: 100%;
     border-radius: none;
     height: 100%;
     object-fit: cover;
 }
 
-.image-item {
+.image-item1 {
     position: relative;
     cursor: pointer;
  }
@@ -59,17 +59,17 @@ span {
   transition:   opacity 0.8s ease;
 }
 
-.image-item:hover .hover-img {
+.image-item1:hover .hover-img {
     
     opacity:1;
 }
 
-@media only screen and (min-width: 940px) {
-    .image-gallery {
+@media only screen and (min-width: 840px) {
+    .image-gallery1 {
         flex-direction: row;
     }
 
-    span {
+    .span1 {
         font-size: 1rem;
     }
 
