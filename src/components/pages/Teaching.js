@@ -54,6 +54,9 @@ export default function Teaching () {
                 <Slider name="riverReflections" text="river reflections 3.14.2021" url="/riverReflections"/>
                 <Slider name="whiteFusionCalathea" text="white fusion calathea 1.31.2021" url="/whiteFusionCalathea"/>
                 <Slider name="secludedBridge" text="secluded bridge 1.17.2021" url="/secludedBridge"/>
+                <Slider name="sunsetInMorocco" text="sunset in morocco 1.10.2021" url="/sunsetInMorocco"/>
+                <Slider name="whiteFusionCalathea" text="white fusion calathea 1.31.2021" url="/whiteFusionCalathea"/>
+                <Slider name="secludedBridge" text="secluded bridge 1.17.2021" url="/secludedBridge"/>
             </div>
 
             </div>
