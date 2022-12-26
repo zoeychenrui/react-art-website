@@ -868,7 +868,7 @@ export const parisData = [
     image: "paris/paris1.png",
   },
   {
-    image: "paris/pariss2.png",   },
+    image: "paris/paris2.png",   },
   {
     image: "paris/paris3.png",    },
   {
@@ -891,4 +891,118 @@ export const parisData = [
     image: "paris/paris12.png",
   },
  
+];
+
+export const sunsetInMoroccoData = [
+  {
+    image: "sunsetInMorocco/morocco1.png",
+  },
+  {
+    image: "sunsetInMorocco/morocco2.png",   },
+  {
+    image: "sunsetInMorocco/morocco3.png",    },
+  {
+    image: "sunsetInMorocco/morocco4.png",    },
+  {
+    image: "sunsetInMorocco/morocco5.png",   },
+  {
+    image: "sunsetInMorocco/morocco6.png",  },
+  {
+    image: "sunsetInMorocco/morocco7.png",   },
+  {
+    image: "sunsetInMorocco/morocco8.png",  },
+  {
+    image: "sunsetInMorocco/morocco9.png",  },
+    {
+      image: "sunsetInMorocco/morocco10.png",  },
+      {
+        image: "sunsetInMorocco/morocco11.png",  },
+  {
+    image: "sunsetInMorocco/morocco12.png",
+  },
+  {
+    image: "sunsetInMorocco/morocco13.png",
+  },
+  {
+    image: "sunsetInMorocco/morocco14.png",
+  },
+];
+
+export const yearOfTheCowData = [
+  {
+    image: "yearOfTheCow/cow1.png",
+  },
+  {
+    image: "yearOfTheCow/cow2.png",   },
+  {
+    image: "yearOfTheCow/cow3.png",    },
+  {
+    image: "yearOfTheCow/cow4.png",    },
+  {
+    image: "yearOfTheCow/cow5.png",   },
+  {
+    image: "yearOfTheCow/cow6.png",  },
+  {
+    image: "yearOfTheCow/cow7.png",   },
+  {
+    image: "yearOfTheCow/cow8.png",  },
+  {
+    image: "yearOfTheCow/cow9.png",  },
+    {
+      image: "yearOfTheCow/cow10.png",  },
+      {
+        image: "yearOfTheCow/cow11.png", },
+  {
+    image: "yearOfTheCow/cow12.png",
+  },
+  {
+    image: "yearOfTheCow/cow13.png",
+  },
+  {
+    image: "yearOfTheCow/cow14.png",
+  },
+  {
+    image: "yearOfTheCow/cow15.png",
+  },
+];
+
+export const mountainsData = [
+  {
+    image: "mountains/mountains1.png",
+  },
+  {
+    image: "mountains/mountains2.png",   },
+  {
+    image: "mountains/mountains3.png",    },
+  {
+    image: "mountains/mountains4.png",    },
+  {
+    image: "mountains/mountains5.png",   },
+  {
+    image: "mountains/mountains6.png",  },
+  {
+    image: "mountains/mountains7.png",   },
+  {
+    image: "mountains/mountains8.png",  },
+  {image: "mountains/mountains9.png",  },
+    {
+      image: "mountains/mountains10.png",  },
+      {
+        image: "mountains/mountains11.png",  },
+        {
+          image: "mountains/mountains13.png",  },
+  {
+    image: "mountains/mountains14.png",   },
+    {
+      image: "mountains/mountains15.png",   },
+      {
+        image: "mountains/mountains16.png",   },
+        {
+          image: "mountains/mountains17.png",   },
+          {
+            image: "mountains/mountains18.png",   },
+            {
+              image: "mountains/mountains19.png",   },
+  
+  
 ];
