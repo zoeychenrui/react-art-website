@@ -926,6 +926,12 @@ export const sunsetInMoroccoData = [
   {
     image: "sunsetInMorocco/morocco14.png",
   },
+  {
+    image: "sunsetInMorocco/morocco15.png",
+  },
+  {
+    image: "sunsetInMorocco/morocco16.png",
+  },
 ];
 
 export const yearOfTheCowData = [
