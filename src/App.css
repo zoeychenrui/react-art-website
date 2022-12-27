@@ -3,3 +3,16 @@
     margin-left: 15%;
     margin-right: 15%;
 }
+
+.above {
+    margin-top: 10%;
+}
+
+.container1 {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
+
+}
