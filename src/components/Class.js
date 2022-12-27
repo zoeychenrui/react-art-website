@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from "react-router-dom"
 import storage from "./sliders/Config";
 import { useState, useEffect } from "react";
+import "./Class.css";
 
 
 export default function Class() {
@@ -30,15 +31,17 @@ useEffect(() => {
 }, []);
 
   return (
-    <div id="photos">
+    <div className="container">
+    <ul className="photos"> 
     {allImages.map((image) => {
        return (
-          <div key={image} className="image">
-             <img src={image} alt="" />
-          </div>
+          <li key={image}>
+             <img src={image} alt="piece"/>
+          </li>
         );
       })}
-  </div>
+      </ul>
+      </div>
   
   )
 }
