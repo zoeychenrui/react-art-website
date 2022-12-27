@@ -2,13 +2,13 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBWXHEGddzkpG0iJVaAguwbhoqdek5rMOw",
-    authDomain: "react-art-website-88dba.firebaseapp.com",
-    projectId: "react-art-website-88dba",
-    storageBucket: "react-art-website-88dba.appspot.com",
-    messagingSenderId: "956014689500",
-    appId: "1:956014689500:web:9a9d0b28cc417c89620819",
-    measurementId: "G-NK83WFNNY8"
+    apiKey: "AIzaSyDes77x7Md3a0yGqPOJ3LswelDi6fs9Uw8",
+    authDomain: "art-website-27a1f.firebaseapp.com",
+    projectId: "art-website-27a1f",
+    storageBucket: "art-website-27a1f.appspot.com",
+    messagingSenderId: "913942610150",
+    appId: "1:913942610150:web:41b2e47cf18a861571fb27",
+    measurementId: "G-7D82VL5JDL"
   };
 
   firebase.initializeApp(firebaseConfig);
