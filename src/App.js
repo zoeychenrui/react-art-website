@@ -7,6 +7,7 @@ import Teaching from './components/pages/Teaching';
 import Originals from './components/pages/Originals';
 import Pinterest from './components/pages/Pinterest';
 import About from './components/pages/About';
+import Class from './components/Class';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/originals" element={<Originals/>} />
       <Route path="/pinterest" element={<Pinterest/>} />
       <Route path="/about" element={<About/>} />
+      <Route path="/:id" element={<Class />} />
     </Routes>
    </Router>
    

@@ -198,7 +198,6 @@ export default function Slider (props) {
                         <div >
                         <img src={slide} alt="slide"  />
                         </div>
-                        
                     )}
                     </div>  
                 );
